@@ -13,6 +13,7 @@ dist/
 wheels/
 
 # pytorch/python/numpy formats
+*.pt
 *.pth
 *.pkl
 *.npy
@@ -36,7 +37,7 @@ model_ts*.txt
 .vscode
 _darcs
 
-# demo 
+# demo
 **/node_modules
 yarn.lock
 package-lock.json
